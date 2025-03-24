@@ -1,4 +1,4 @@
-Original project: * [technorabilia/portainer-templates](https://github.com/technorabilia/portainer-templates)
+Original project: [technorabilia/portainer-templates](https://github.com/technorabilia/portainer-templates)
 
 --- 
 

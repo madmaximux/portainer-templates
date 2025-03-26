@@ -25,6 +25,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -70,6 +76,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -141,6 +153,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -184,6 +202,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -237,6 +261,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -285,6 +315,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -325,6 +361,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -372,6 +414,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -423,6 +471,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -477,6 +531,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -524,6 +584,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -577,6 +643,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -626,6 +698,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -717,6 +795,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -757,6 +841,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -801,6 +891,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -861,6 +957,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -918,6 +1020,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -958,6 +1066,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1013,6 +1127,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1062,6 +1182,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1144,6 +1270,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1188,6 +1320,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1235,6 +1373,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1278,6 +1422,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1328,6 +1478,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1370,6 +1526,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1429,6 +1591,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1478,6 +1646,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1540,6 +1714,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1580,6 +1760,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1734,6 +1920,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1779,6 +1971,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1848,6 +2046,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -1920,6 +2124,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -1974,6 +2184,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2026,6 +2242,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2147,6 +2369,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2206,6 +2434,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2250,6 +2484,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2290,6 +2530,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2333,6 +2579,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2373,6 +2625,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2421,6 +2679,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2494,6 +2758,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2563,6 +2833,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2623,6 +2899,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2663,6 +2945,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2707,6 +2995,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2746,6 +3040,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2790,6 +3090,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2830,6 +3136,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -2877,6 +3189,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2918,6 +3236,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -2957,6 +3281,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3005,6 +3335,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3166,6 +3502,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3273,6 +3615,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3313,6 +3661,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3372,6 +3726,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3411,6 +3771,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3454,6 +3820,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3494,6 +3866,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3553,6 +3931,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3609,6 +3993,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3730,6 +4120,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3773,6 +4169,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3823,6 +4225,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3865,6 +4273,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -3905,6 +4319,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -3953,6 +4373,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4026,6 +4452,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -4066,6 +4498,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4121,6 +4559,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4186,6 +4630,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -4226,6 +4676,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4323,6 +4779,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -4369,6 +4831,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4420,6 +4888,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -4459,6 +4933,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4501,6 +4981,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4548,6 +5034,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4649,6 +5141,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -4710,6 +5208,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -4784,6 +5288,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5050,6 +5560,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5090,6 +5606,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5141,6 +5663,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5186,6 +5714,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5237,6 +5771,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5276,6 +5816,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5374,6 +5920,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5422,6 +5974,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5465,6 +6023,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5513,6 +6077,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5564,6 +6134,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5604,6 +6180,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5681,6 +6263,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -5844,6 +6432,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5889,6 +6483,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5931,6 +6531,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -5970,6 +6576,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6029,6 +6641,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6074,6 +6692,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6114,6 +6738,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6163,6 +6793,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6203,6 +6839,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6306,6 +6948,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6371,6 +7019,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6419,6 +7073,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6459,6 +7119,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6505,6 +7171,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6544,6 +7216,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6614,6 +7292,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6667,6 +7351,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6707,6 +7397,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6786,6 +7482,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6829,6 +7531,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -6921,6 +7629,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -6940,7 +7654,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -6980,6 +7693,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7027,6 +7746,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7066,6 +7791,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7113,6 +7844,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7168,6 +7905,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7212,6 +7955,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7277,6 +8026,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7336,6 +8091,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7382,6 +8143,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7389,7 +8156,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -7421,6 +8187,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7472,6 +8244,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7511,6 +8289,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7553,6 +8337,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7604,6 +8394,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7644,6 +8440,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7696,6 +8498,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7703,7 +8511,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -7743,6 +8550,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7785,6 +8598,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7836,6 +8655,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7878,6 +8703,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -7918,6 +8749,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -7969,6 +8806,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8016,6 +8859,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8081,6 +8930,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8121,6 +8976,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8272,6 +9133,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8279,7 +9146,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -8314,6 +9180,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8363,6 +9235,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8478,6 +9356,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8520,6 +9404,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8560,6 +9450,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8639,6 +9535,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8790,6 +9692,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8845,6 +9753,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -8896,6 +9810,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -8962,6 +9882,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9001,6 +9927,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9090,6 +10022,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9140,6 +10078,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9202,6 +10146,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9248,6 +10198,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9353,6 +10309,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9360,7 +10322,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -9392,6 +10353,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9436,6 +10403,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9478,6 +10451,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9485,7 +10464,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -9524,6 +10502,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9582,6 +10566,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9663,6 +10653,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9759,6 +10755,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9766,7 +10768,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp",
 				"3000:3000/tcp",
 				"3001:3001/tcp"
 			],
@@ -9800,6 +10801,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -9844,6 +10851,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9886,6 +10899,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -9926,6 +10945,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -10000,6 +11025,12 @@
 					"description": "for GroupID"
 				},
 				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
+				},
+				{
 					"name": "TZ",
 					"label": "TZ",
 					"default": "America/Chicago",
@@ -10007,7 +11038,6 @@
 				}
 			],
 			"ports": [
-				"32400:32400/tcp"
 			],
 			"volumes": [
 			{
@@ -10039,6 +11069,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",
@@ -10080,6 +11116,12 @@
 					"label": "PGID",
 					"default": "100",
 					"description": "for GroupID"
+				},
+				{
+					"name": "UMASK",
+					"label": "UMASK",
+					"default": "${UMASK:-002}",
+					"description": "for UMASK"
 				},
 				{
 					"name": "TZ",

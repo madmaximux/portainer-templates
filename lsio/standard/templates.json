@@ -25,15 +25,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -78,15 +72,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -153,15 +141,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -204,15 +186,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -261,15 +237,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -315,15 +285,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -363,15 +327,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -416,15 +374,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -473,15 +425,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -531,15 +477,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -586,15 +526,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -643,15 +577,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -700,15 +628,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -795,15 +717,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -843,15 +759,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -893,15 +803,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -957,15 +861,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1020,15 +918,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1068,15 +960,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1127,15 +1013,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1184,15 +1064,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1270,15 +1144,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1322,15 +1190,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1373,15 +1235,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1424,15 +1280,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1478,15 +1328,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1528,15 +1372,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1591,15 +1429,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1648,15 +1480,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1714,15 +1540,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1762,15 +1582,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1920,15 +1734,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1973,15 +1781,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2048,15 +1850,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2124,15 +1920,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2184,15 +1974,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2244,15 +2028,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2369,15 +2147,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2434,15 +2206,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2484,15 +2250,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2532,15 +2292,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2579,15 +2333,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2627,15 +2375,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2681,15 +2423,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2758,15 +2494,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2833,15 +2563,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2899,15 +2623,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2947,15 +2665,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2995,15 +2707,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3042,15 +2748,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3090,15 +2790,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3138,15 +2832,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3189,15 +2877,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3236,15 +2918,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3283,15 +2959,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3337,15 +3007,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3502,15 +3166,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3615,15 +3273,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3663,15 +3315,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3726,15 +3372,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3773,15 +3413,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3820,15 +3454,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3868,15 +3496,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3931,15 +3553,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3995,15 +3611,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4120,15 +3730,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4171,15 +3775,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4225,15 +3823,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4273,15 +3865,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4321,15 +3907,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4375,15 +3955,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4452,15 +4026,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4500,15 +4068,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4561,15 +4123,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4630,15 +4186,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4678,15 +4228,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4779,15 +4323,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4833,15 +4371,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4888,15 +4420,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4935,15 +4461,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4983,15 +4503,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5036,15 +4550,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5141,15 +4649,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5210,15 +4712,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5290,15 +4786,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5560,15 +5050,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5608,15 +5092,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5663,15 +5141,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5716,15 +5188,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5771,15 +5237,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5818,15 +5278,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5920,15 +5374,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5974,15 +5422,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6025,15 +5467,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6079,15 +5515,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6134,15 +5564,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6182,15 +5606,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6265,15 +5683,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6432,15 +5844,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6483,15 +5889,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6531,15 +5931,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6578,15 +5972,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6641,15 +6029,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6692,15 +6074,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6740,15 +6116,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6793,15 +6163,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6841,15 +6205,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6948,15 +6306,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7019,15 +6371,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7073,15 +6419,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7121,15 +6461,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7171,15 +6505,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7218,15 +6546,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7292,15 +6614,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7351,15 +6667,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7399,15 +6709,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7482,15 +6786,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7533,15 +6831,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7629,15 +6921,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7695,15 +6981,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7746,15 +7026,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7793,15 +7067,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7846,15 +7114,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7905,15 +7167,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7957,15 +7213,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -8026,15 +7276,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -8091,15 +7335,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8143,19 +7381,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp"
 			],
 			"volumes": [
 			{
@@ -8189,15 +7422,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8244,15 +7471,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8291,15 +7512,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8339,15 +7554,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8394,15 +7603,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8442,15 +7645,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8498,19 +7695,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp"
 			],
 			"volumes": [
 			{
@@ -8552,15 +7744,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8600,15 +7786,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8655,15 +7835,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8703,15 +7877,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8751,15 +7919,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8806,15 +7968,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8861,15 +8017,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -8930,15 +8080,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8978,15 +8122,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -9133,19 +8271,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp"
 			],
 			"volumes": [
 			{
@@ -9182,15 +8315,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -9237,15 +8364,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -9356,15 +8477,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -9404,15 +8519,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -9452,15 +8561,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -9537,15 +8640,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -9692,15 +8789,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -9753,15 +8844,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -9812,15 +8897,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -9882,15 +8961,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -9929,15 +9002,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10022,15 +9089,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10080,15 +9141,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10146,15 +9201,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10200,15 +9249,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10309,19 +9352,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp"
 			],
 			"volumes": [
 			{
@@ -10355,15 +9393,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -10403,15 +9435,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -10451,19 +9477,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp"
 			],
 			"volumes": [
 			{
@@ -10504,15 +9525,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10568,15 +9583,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10655,15 +9664,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -10755,19 +9758,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp",
 				"3000:3000/tcp",
 				"3001:3001/tcp"
 			],
@@ -10803,15 +9801,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -10851,15 +9843,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -10899,15 +9885,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -10947,15 +9927,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -11025,19 +9999,14 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"ports": [
+				"80:80/tcp"
 			],
 			"volumes": [
 			{
@@ -11071,15 +10040,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -11118,15 +10081,9 @@
 					"description": "for GroupID"
 				},
 				{
-					"name": "UMASK",
-					"label": "UMASK",
-					"default": "002",
-					"description": "for UMASK"
-				},
-				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "America/Chicago",
+					"default": "Europe/Amsterdam",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],

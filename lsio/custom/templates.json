@@ -59,7 +59,7 @@
 			"type": 1,
 			"title": "Airsonic-advanced",
 			"name": "Airsonic-advanced",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/media<br>mkdir -p /volume1/docker/appdata/airsonic-advanced/media</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/airsonic-advanced<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Airsonic-advanced](https://github.com/kagemomiji/airsonic-advanced) is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png",
@@ -107,12 +107,12 @@
 			],
 			"volumes": [
 			{
-					"container": "/mnt/data/media",
-					"bind": "/volume1/data/media"
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/airsonic-advanced"
 			},
 			{
-					"container": "/media",
-					"bind": "/volume1/docker/appdata/airsonic-advanced/media"
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -439,7 +439,7 @@
 			"type": 1,
 			"title": "Bazarr",
 			"name": "Bazarr",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/bazarr<br>mkdir -p /volume1/data/media</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/bazarr<br>mkdir -p /volume1/data/media<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Bazarr](https://www.bazarr.media/) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
 			"categories": [
 				"Media"
@@ -484,6 +484,10 @@
 			{
 					"container": "/mnt/data/media",
 					"bind": "/volume1/data/media"
+			},
+			{
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -493,7 +497,7 @@
 			"type": 1,
 			"title": "Beets",
 			"name": "Beets",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/beets<br>mkdir -p /volume1/data/media<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Beets](http://beets.io/) is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.",
 			"categories": [
 				"Media"
@@ -532,8 +536,16 @@
 			],
 			"volumes": [
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/beets"
+			},
+			{
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1482,7 +1494,7 @@
 			"type": 1,
 			"title": "Deluge",
 			"name": "Deluge",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/deluge<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Deluge](http://deluge-torrent.org/) is a lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...",
 			"categories": [
 				"File Management"
@@ -1529,6 +1541,10 @@
 				"58846:58846/tcp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/deluge"
+			},
 			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
@@ -1925,7 +1941,7 @@
 			"type": 1,
 			"title": "Duckdns",
 			"name": "Duckdns",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/duckdns<br>mkdir -p /volume1/docker/appdata/duckdns</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/duckdns</p>",
 			"description": "[Duckdns](https://duckdns.org/) is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png",
@@ -1985,10 +2001,6 @@
 				"80:80/tcp"
 			],
 			"volumes": [
-			{
-					"container": "/config",
-					"bind": "/volume1/docker/appdata/duckdns"
-			},
 			{
 					"container": "/config",
 					"bind": "/volume1/docker/appdata/duckdns"
@@ -2074,7 +2086,7 @@
 			"type": 1,
 			"title": "Emby",
 			"name": "Emby",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/media<br></p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/emby<br>mkdir -p /volume1/data/media<br></p>",
 			"description": "[Emby](https://emby.media/) organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
 			"categories": [
 				"Home Media"
@@ -2113,6 +2125,10 @@
 				"8920:8920/tcp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/emby"
+			},
 			{
 					"container": "/mnt/data/media",
 					"bind": "/volume1/data/media"
@@ -3813,7 +3829,7 @@
 			"type": 1,
 			"title": "Jackett",
 			"name": "Jackett",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/jackett<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Jackett](https://github.com/Jackett/Jackett) works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png",
@@ -3861,6 +3877,10 @@
 			],
 			"volumes": [
 			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/jackett"
+			},
+			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
 			}
@@ -3872,7 +3892,7 @@
 			"type": 1,
 			"title": "Jellyfin",
 			"name": "Jellyfin",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/media</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/jellyfin<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Jellyfin](https://github.com/jellyfin/jellyfin) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png",
@@ -3916,6 +3936,10 @@
 				"1900:1900/udp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/jellyfin"
+			},
 			{
 					"container": "/mnt/data/media",
 					"bind": "/volume1/data/media"
@@ -4433,7 +4457,7 @@
 			"type": 1,
 			"title": "Lazylibrarian",
 			"name": "Lazylibrarian",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/docker/appdata/lazylibrarian/books</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/lazylibrarian<br>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/docker/appdata/lazylibrarian/books</p>",
 			"description": "[Lazylibrarian](https://lazylibrarian.gitlab.io/) is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info. This container is based on the DobyTang fork.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png",
@@ -4474,6 +4498,10 @@
 				"5299:5299/tcp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/lazylibrarian"
+			},
 			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
@@ -4762,7 +4790,7 @@
 			"type": 1,
 			"title": "Lidarr",
 			"name": "Lidarr",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/lidarr<br>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/lidarr<br>mkdir -p /volume1/data/media<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Lidarr](https://github.com/lidarr/Lidarr) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
 			"platform": "linux",
 			"logo": "https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png",
@@ -4802,8 +4830,12 @@
 					"bind": "/volume1/docker/appdata/lidarr"
 			},
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5533,7 +5565,7 @@
 			"type": 1,
 			"title": "Medusa",
 			"name": "Medusa",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/medusa<br>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Medusa](https://pymedusa.com/) is an automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png",
@@ -5569,8 +5601,16 @@
 			],
 			"volumes": [
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/medusa"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
+			},
+			{
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5891,7 +5931,7 @@
 			"type": 1,
 			"title": "Mstream",
 			"name": "Mstream",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/media</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/mstream<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Mstream](https://mstream.io/) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png",
@@ -5926,6 +5966,10 @@
 				"3000:3000/tcp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/mstream"
+			},
 			{
 					"container": "/mnt/data/media",
 					"bind": "/volume1/data/media"
@@ -5992,7 +6036,7 @@
 			"type": 1,
 			"title": "Mylar3",
 			"name": "Mylar3",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/mylar3<br>mkdir -p /volume1/docker/appdata/mylar3/comics<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Mylar3](https://github.com/mylar3/mylar3) is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python. It supports SABnzbd, NZBGET, and many torrent clients in addition to DDL.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png",
@@ -6027,6 +6071,14 @@
 				"8090:8090/tcp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/mylar3"
+			},
+			{
+					"container": "/comics",
+					"bind": "/volume1/docker/appdata/mylar3/comics"
+			},
 			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
@@ -7533,7 +7585,7 @@
 			"type": 1,
 			"title": "Plex",
 			"name": "Plex",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/media</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/plex<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Plex](https://plex.tv) organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-logo.png",
@@ -7585,6 +7637,10 @@
 				"32414:32414/udp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/plex"
+			},
 			{
 					"container": "/mnt/data/media",
 					"bind": "/volume1/data/media"
@@ -7807,7 +7863,7 @@
 			"type": 1,
 			"title": "Pyload-ng",
 			"name": "Pyload-ng",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/pyload-ng<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[pyLoad](https://pyload.net/) is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
 			"platform": "linux",
 			"logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png",
@@ -7843,6 +7899,10 @@
 				"9666:9666/tcp"
 			],
 			"volumes": [
+			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/pyload-ng"
+			},
 			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
@@ -8088,7 +8148,7 @@
 			"type": 1,
 			"title": "Radarr",
 			"name": "Radarr",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/radarr<br>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/radarr<br>mkdir -p /volume1/data/media<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png",
@@ -8128,8 +8188,12 @@
 					"bind": "/volume1/docker/appdata/radarr"
 			},
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -8234,7 +8298,7 @@
 			"type": 1,
 			"title": "Rdesktop",
 			"name": "Rdesktop",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/rdesktop<br><br>mkdir -p /volume1/docker/appdata/rdesktop</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/rdesktop<br></p>",
 			"description": "[Rdesktop](http://xrdp.org/) - Containers containing full desktop environments in many popular flavors for Alpine, Ubuntu, Arch, and Fedora accessible via RDP.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png",
@@ -8276,10 +8340,6 @@
 			{
 					"container": "/var/run/docker.sock",
 					"bind": "/var/run/docker.sock"
-			},
-			{
-					"container": "/config",
-					"bind": "/volume1/docker/appdata/rdesktop"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -8337,7 +8397,7 @@
 			"type": 1,
 			"title": "Resilio-sync",
 			"name": "Resilio-sync",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/resilio-sync<br>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/docker/appdata/resilio-sync/sync</p>",
 			"description": "[Resilio-sync](https://www.resilio.com/individuals/) (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. There is an official sync image but we created this one as it supports user mapping to simplify permissions for volumes.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/resilio-sync-logo.png",
@@ -8374,8 +8434,16 @@
 			],
 			"volumes": [
 			{
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/resilio-sync"
+			},
+			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
+			},
+			{
+					"container": "/sync",
+					"bind": "/volume1/docker/appdata/resilio-sync/sync"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -8488,7 +8556,7 @@
 			"type": 1,
 			"title": "Sabnzbd",
 			"name": "Sabnzbd",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sabnzbd<br>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sabnzbd<br>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Sabnzbd](http://sabnzbd.org/) makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png",
@@ -8526,6 +8594,10 @@
 			{
 					"container": "/config",
 					"bind": "/volume1/docker/appdata/sabnzbd"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
 			},
 			{
 					"container": "/mnt/data/downloads",
@@ -8635,7 +8707,7 @@
 			"type": 1,
 			"title": "Sickchill",
 			"name": "Sickchill",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sickchill<br>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sickchill<br>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/data/media</p>",
 			"description": "[Sickchill](https://github.com/SickChill/SickChill) is an Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png",
@@ -8675,8 +8747,12 @@
 					"bind": "/volume1/docker/appdata/sickchill"
 			},
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
+			},
+			{
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -8686,7 +8762,7 @@
 			"type": 1,
 			"title": "Sickgear",
 			"name": "Sickgear",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sickgear<br>mkdir -p /volume1/data/media<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[SickGear](https://github.com/sickgear/sickgear) provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.. For more information on SickGear visit their website and check it out: https://github.com/SickGear/SickGear",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png",
@@ -8722,8 +8798,16 @@
 			],
 			"volumes": [
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/config",
+					"bind": "/volume1/docker/appdata/sickgear"
+			},
+			{
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -9052,7 +9136,7 @@
 			"type": 1,
 			"title": "Sonarr",
 			"name": "Sonarr",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sonarr<br>mkdir -p /volume1/data</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/sonarr<br>mkdir -p /volume1/data/media<br>mkdir -p /volume1/data/downloads</p>",
 			"description": "[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
 			"categories": [
 				"Media"
@@ -9095,8 +9179,12 @@
 					"bind": "/volume1/docker/appdata/sonarr"
 			},
 			{
-					"container": "/mnt/data",
-					"bind": "/volume1/data"
+					"container": "/mnt/data/media",
+					"bind": "/volume1/data/media"
+			},
+			{
+					"container": "/mnt/data/downloads",
+					"bind": "/volume1/data/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -9803,7 +9891,7 @@
 			"type": 1,
 			"title": "Transmission",
 			"name": "Transmission",
-			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/transmission<br>mkdir -p /volume1/data/downloads</p>",
+			"note": "Portainer App Templates by <a href='https://github.com/madmaximux' target='_blank'>Madmaximux</a>. A personal fork of the project by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a>. Based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>. </p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/appdata/transmission<br>mkdir -p /volume1/data/downloads<br>mkdir -p /volume1/docker/appdata/transmission/watch</p>",
 			"description": "[Transmission](https://www.transmissionbt.com/) is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png",
@@ -9883,6 +9971,10 @@
 			{
 					"container": "/mnt/data/downloads",
 					"bind": "/volume1/data/downloads"
+			},
+			{
+					"container": "/watch",
+					"bind": "/volume1/docker/appdata/transmission/watch"
 			}
 			],
 			"restart_policy": "unless-stopped"
